@@ -1,0 +1,21 @@
+{
+  "version": "2",
+  "plugins": [
+    {
+      "id": "nano-banana-by-ace",
+      "displayName": "Nano Banana by Ace Data Cloud",
+      "version": "0.1.0",
+      "description": "Nano Banana image generation and same-task results in Kimi Code, provided by Ace Data Cloud.",
+      "homepage": "https://github.com/AceDataCloud/NanoBananaKimiCode",
+      "keywords": [
+        "nano banana",
+        "nano-banana",
+        "image",
+        "image generation",
+        "kimi-code",
+        "acedatacloud"
+      ],
+      "source": "https://github.com/AceDataCloud/NanoBananaKimiCode/tree/codex/native-kimi-plugin-20261018"
+    }
+  ]
+}

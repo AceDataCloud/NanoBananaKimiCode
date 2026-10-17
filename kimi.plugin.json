@@ -1,0 +1,40 @@
+{
+  "name": "nano-banana-by-ace",
+  "version": "0.1.0",
+  "description": "Nano Banana image generation and same-task results in Kimi Code, provided by Ace Data Cloud.",
+  "keywords": [
+    "nano banana",
+    "nano-banana",
+    "image",
+    "image generation",
+    "kimi-code",
+    "acedatacloud"
+  ],
+  "author": {
+    "name": "Ace Data Cloud",
+    "email": "dev@acedata.cloud"
+  },
+  "homepage": "https://github.com/AceDataCloud/NanoBananaKimiCode",
+  "license": "MIT",
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "mcpServers": {
+    "nano-banana": {
+      "transport": "http",
+      "url": "https://nanobanana.mcp.acedata.cloud/mcp",
+      "bearerTokenEnvVar": "ACEDATACLOUD_API_TOKEN",
+      "enabledTools": [
+        "nanobanana_generate_image",
+        "nanobanana_edit_image",
+        "nanobanana_get_task"
+      ]
+    }
+  },
+  "interface": {
+    "displayName": "Nano Banana by Ace Data Cloud",
+    "shortDescription": "Nano Banana image tools and same-task results",
+    "longDescription": "Independent Nano Banana integration maintained by Ace Data Cloud. Bring your own Ace API Token. Generation and editing may incur charges; query an existing task without resubmitting it. Not an official Nano Banana or Moonshot integration.",
+    "developerName": "Ace Data Cloud",
+    "websiteURL": "https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=nano_banana_kimi_readme_key"
+  }
+}
